@@ -129,13 +129,15 @@ img {
  ************************************************/
 
  @media screen and (max-width: 480px){
+
+
     .container{
-        width: 480px;
+        max-width: 480px;
     }
     
     .row{
         flex-wrap: wrap;
-        gap: 100px;
+        gap: 70px;
     }
 
     .lessons .col,
@@ -144,9 +146,15 @@ img {
         width: 100%;
     }
 
+    .steps{
+        margin-bottom: -20px;
+    }
+
     .why-us{
         background-color:#222222;
+        margin-bottom: -20px;
     }
- }
+
+}
 
 
